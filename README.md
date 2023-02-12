@@ -4,26 +4,30 @@
 
 Este código usa um loop while para continuar a escutar por mensagens do cliente até que sejam recebidas a mensagem "exit". Em seguida, a conexão é fechada.
 
-
-Aqui está um exemplo de como você pode utilizar o script:
-
-Abra o aplicativo Termux em seu dispositivo Android.
-
-Execute o seguinte comando para instalar o Python:
-* `pkg install python`
-
-Execute o script com o seguinte comando:
-* `python chat_privacy_server.py`
-
 Abra outra janela do Termux e execute o seguinte comando para instalar o netcat:
 * `pkg install netcat`
 
 Caso aconteca algum erro no seu terminal ao tentar instalar o netcat use o comando abaixa:
 * `pkg install netcat-openbsd`
 
-Conecte-se ao servidor de chat com o seguinte comando:
-* `nc 127.0.0.1 12345`
 
-Envie uma mensagem ao servidor de chat e observe a resposta.
+Para usar o script de bate-papo para terminal Linux, você precisa ter o Python instalado em sua máquina. Aqui estão os passos para usar o script:
 
-Envie a mensagem "exit" para encerrar a conexão.
+Execute o seguinte comando para instalar o Python:
+* `pkg install python`
+* `pkg install netcat`
+
+Caso aconteca algum erro no seu terminal ao tentar instalar o netcat use o comando abaixa:
+* `pkg install netcat-openbsd`
+
+Para baixar o projeto
+* `git clone https://github.com/EfyOliveira/chat_privacy_server`
+
+Navegue até o local onde o arquivo está salvo. Execute o script com o seguinte comando:
+
+* `cd chat_privacy_server`
+* `python chat_privacy_server.py`
+
+Siga as instruções na tela para escolher se você deseja ser o servidor ou o cliente.
+Se você escolher ser o servidor, aguarde a conexão de um cliente. Se você escolher ser o cliente, digite o endereço IP do servidor ao qual deseja se conectar.
+Uma vez que a conexão tenha sido estabelecida, você e seu parceiro de bate-papo poderão enviar mensagens para o outro.
