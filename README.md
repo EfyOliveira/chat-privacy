@@ -11,3 +11,7 @@ Abra o aplicativo Termux em seu dispositivo Android.
 Execute o seguinte comando para instalar o Python:
 
 pkg install python
+
+Execute o script com o seguinte comando:
+
+python chat_server.py
