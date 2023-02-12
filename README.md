@@ -2,15 +2,6 @@
 
 # Chat privado usando a linguagem de programação Python.
 
-Este código usa um loop while para continuar a escutar por mensagens do cliente até que sejam recebidas a mensagem "exit". Em seguida, a conexão é fechada.
-
-Abra outra janela do Termux e execute o seguinte comando para instalar o netcat:
-* `pkg install netcat`
-
-Caso aconteca algum erro no seu terminal ao tentar instalar o netcat use o comando abaixa:
-* `pkg install netcat-openbsd`
-
-
 Para usar o script de bate-papo para terminal Linux, você precisa ter o Python instalado em sua máquina. Aqui estão os passos para usar o script:
 
 Execute o seguinte comando para instalar o Python:
