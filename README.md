@@ -10,16 +10,16 @@ Aqui está um exemplo de como você pode utilizar o script:
 Abra o aplicativo Termux em seu dispositivo Android.
 
 Execute o seguinte comando para instalar o Python:
-'pkg install python'
+* `pkg install python`
 
 Execute o script com o seguinte comando:
-'python chat_privacy_server.py'
+* `python chat_privacy_server.py`
 
 Abra outra janela do Termux e execute o seguinte comando para instalar o netcat:
-*pkg install netcat*
+* `pkg install netcat`
 
 Conecte-se ao servidor de chat com o seguinte comando:
-*nc 127.0.0.1 12345*
+* `nc 127.0.0.1 12345`
 
 Envie uma mensagem ao servidor de chat e observe a resposta.
 
