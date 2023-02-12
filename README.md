@@ -19,7 +19,7 @@ Abra outra janela do Termux e execute o seguinte comando para instalar o netcat:
 * `pkg install netcat`
 
 Caso aconteca algum erro no seu terminal ao tentar instalar o netcat use o comando abaixa:
-* `pkg install netcat-openbsd
+* `pkg install netcat-openbsd`
 
 Conecte-se ao servidor de chat com o seguinte comando:
 * `nc 127.0.0.1 12345`
