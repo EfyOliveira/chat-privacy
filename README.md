@@ -4,7 +4,7 @@
 
 Para usar o script de bate-papo para terminal Linux, você precisa ter o Python instalado em sua máquina. Aqui estão os passos para usar o script:
 
-Execute o seguinte comando para instalar o Python:
+Execute o seguinte comando para instalar o Python & netcat:
 * `pkg install python`
 * `pkg install netcat`
 
