@@ -9,4 +9,5 @@ Aqui está um exemplo de como você pode utilizar o script:
 
 Abra o aplicativo Termux em seu dispositivo Android.
 Execute o seguinte comando para instalar o Python:
-*pkg install python*
+
+pkg install python
